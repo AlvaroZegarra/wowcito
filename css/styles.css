@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+/*.col{
+    border: solid red;
+}*/
+img{
+    width: 25%;
+}
+.col{
+    /*background: transparent url('../img/fondoitems.JPG') no-repeat center center;*/
+    background-image: url(../img/fondoitems.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
